@@ -1,4 +1,4 @@
-export const dateStrFormatter = (dateObj) => {
+export const dateStrFormatter = (dateObj: Date) => {
   const hour = dateObj.getHours();
   const minute = dateObj.getMinutes();
   const seconds = dateObj.getSeconds();
