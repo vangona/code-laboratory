@@ -2,8 +2,10 @@
   "name": "rxjs-experiment",
   "version": "1.0.0",
   "description": "",
-  "main": "assets/js/main.js",
+  "main": "dist/main.js",
   "scripts": {
+    "start": "tsc -w",
+    "dev": "webpack serve --open --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,8 +16,14 @@
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.3"
-  },
-  "type": "module"
+    "typescript": "^5.0.3",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
 }
