@@ -1,3 +1,6 @@
-import { normalIntervalCounter } from "./normalIntervalCounter.js";
+import "../css/styles.css";
+import { normalIntervalTimer } from "./normalIntervalCounter";
+import { reactiveIntervalTimer } from "./reactiveIntervalCounter";
 
-normalIntervalCounter();
+normalIntervalTimer();
+reactiveIntervalTimer();
