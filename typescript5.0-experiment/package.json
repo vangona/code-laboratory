@@ -1,0 +1,17 @@
+{
+  "name": "typescript5.0-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^5.0.3"
+  }
+}
